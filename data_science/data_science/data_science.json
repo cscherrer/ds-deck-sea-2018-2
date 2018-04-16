@@ -1,0 +1,146 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "bf3d77fa-3cec-11e8-b412-186590d47309", 
+    "deck_config_uuid": "bf3e6cc0-3cec-11e8-9ebe-186590d47309", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "bf3e6cc0-3cec-11e8-9ebe-186590d47309", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "name": "data science", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "bf3e77cc-3cec-11e8-81a5-186590d47309", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic-a8c50", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "Card,", 
+                "Test", 
+                "joke"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "here's the question", 
+                "here's the answer"
+            ], 
+            "flags": 0, 
+            "guid": "QUjvu^Df0z", 
+            "note_model_uuid": "bf3e77cc-3cec-11e8-81a5-186590d47309", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a model on instagram", 
+                "Someone who has more than 10,000 followers"
+            ], 
+            "flags": 0, 
+            "guid": "Ee{D.W]XV<", 
+            "note_model_uuid": "bf3e77cc-3cec-11e8-81a5-186590d47309", 
+            "tags": [
+                "Card,", 
+                "Test", 
+                "joke"
+            ]
+        }
+    ]
+}
